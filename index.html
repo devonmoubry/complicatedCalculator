@@ -1,39 +1,45 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
-    <link href="styles.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <title>Not So Basic Calculator</title>
-  </head>
-  <body>
-    <div class="numbers">
-      <a>7</a>
-      <a>8</a>
-      <a>9</a>
-      <a>4</a>
-      <a>5</a>
-      <a>6</a>
-      <a>1</a>
-      <a>2</a>
-      <a>3</a>
-      <a>0</a>
-      <a>.</a>
+</head>
+
+<body>
+    <div id="calculator">
+        <output name="screen"></output>
+        <div class="basic">
+            <button id="clearAll">AC</button>
+            <button id="pos-neg">+/-</button>
+            <button id="percent">%</button>
+        </div>
+        <div class="numbers">
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button id="zero">0</button>
+            <button>.</button>
+        </div>
+        <div class="operators">
+            <button>/</button>
+            <button>*</button>
+            <button>-</button>
+            <button>+</button>
+            <button id="equals">=</button>
+        </div>
     </div>
-    <div class="operators">
-      <a>/</a>
-      <a>*</a>
-      <a>-</a>
-      <a>+</a>
-      <a id="equals">=</a>
-    </div>
-    <div class="basic">
-      <a id="clearAll">AC</a>
-      <a id="pos-neg">+/-</a>
-      <a id="percent">%</a>
-    </div>
-  <script src="main.js" charset="utf-8"></script>
-  </body>
+    <script src="main.js" charset="utf-8"></script>
+</body>
+
 </html>
