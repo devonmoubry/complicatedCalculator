@@ -1,34 +1,44 @@
+@import url("https://fonts.googleapis.com/css?family=Special+Elite");
 #calculator {
-  background-color: #008b8b;
   width: 400px;
-  height: 800px;
+  height: 640px;
   padding: 6px;
   margin: 12px auto;
-  border-radius: 12px;
-  border: 4px solid #4b0082; }
+  border-radius: 6px;
+  border-style: groove;
+  border: 4px solid #20160A;
+  background: linear-gradient(#694e28, #A4793B);
+  font-family: 'Special Elite', cursive; }
 
 output {
   display: block;
   width: 300px;
-  height: 96px;
-  background-color: #4b0082;
-  color: #008b8b;
-  border-radius: 12px;
-  margin: 12px auto;
-  border: 3px solid #7fffd4; }
+  height: 80px;
+  background-color: #20160A;
+  color: #E4C28B;
+  border-radius: 6px;
+  margin: 24px auto;
+  border: 3px solid #BC9455;
+  border-style: groove;
+  font-size: 64px;
+  text-align: right;
+  line-height: 1.6;
+  vertical-align: text-top; }
 
 button {
   display: inline-block;
   vertical-align: top;
   text-decoration: none;
-  background-color: #7fffd4;
-  border: 3px solid #4b0082;
-  color: #4b0082;
-  border-radius: 12px;
+  background: linear-gradient(#E4C28B, #A4793B);
+  border: 3px solid #20160A;
+  color: #20160A;
+  border-radius: 45px;
+  border-style: groove;
   width: 90px;
-  height: 110px;
-  font-size: 24px;
-  margin: 2px; }
+  height: 90px;
+  font-size: 36px;
+  margin: 2px;
+  font-family: 'Special Elite', cursive; }
 
 .basic {
   max-width: 73%;
@@ -50,9 +60,9 @@ button {
   float: right; }
 
 .operators button {
-  background-color: #4b0082;
-  color: #7fffd4;
-  border-color: #7fffd4; }
+  background: linear-gradient(#674824, #20160A);
+  color: #E4C28B;
+  border-color: #E4C28B; }
 
 #zero {
   width: 188px; }
