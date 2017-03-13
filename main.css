@@ -8,7 +8,8 @@
   border-style: groove;
   border: 4px solid #20160A;
   background: linear-gradient(#694e28, #A4793B);
-  font-family: 'Special Elite', cursive; }
+  font-family: 'Special Elite', cursive;
+  box-shadow: 3px 3px #5a4e40; }
 
 output {
   display: block;
@@ -23,7 +24,8 @@ output {
   font-size: 64px;
   text-align: right;
   line-height: 1.6;
-  vertical-align: text-top; }
+  vertical-align: text-top;
+  box-shadow: inset 3px 3px #130c04; }
 
 button {
   display: inline-block;
@@ -38,7 +40,8 @@ button {
   height: 90px;
   font-size: 36px;
   margin: 2px;
-  font-family: 'Special Elite', cursive; }
+  font-family: 'Special Elite', cursive;
+  box-shadow: 2px 2px #5a4e40; }
 
 .basic {
   max-width: 73%;

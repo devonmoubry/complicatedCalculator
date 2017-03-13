@@ -66,7 +66,7 @@ for (var i = 0; i < buttons.length; i++) {
 
             if (calcOutput.textContent.length > 8 || clickCount > 8) {
 
-                alert('You are mathing too hard for me. Please go to google.');
+                alert('You’re mathing too hard for me. Please see Dieter Rams.');
             }
 
         });
@@ -74,24 +74,3 @@ for (var i = 0; i < buttons.length; i++) {
     }
 
 }
-
-//function findIndexOfOperator( displayScreen ) {
-
-//}
-
-
-//var a substring(leftside of operator)
-//var b substring(leftside of operators)
-
-//when =
-//get calcOutput.textContent
-//parseInt?
-//do it
-//calcOutput.textContent = it
-
-//indexOf "+"etc
-//substring ""
-//parseInt ""
-//return a "" b
-
-//addEventListener type: keydown to hear keys pressed to update
